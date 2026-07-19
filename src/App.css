@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #87CEEB, #E0F6FF);
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+}
+
+.search-box {
+  margin: 20px 0;
+}
+
+input {
+  padding: 12px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 25px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-card {
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: inline-block;
+  min-width: 300px;
+}
+
+.weather-card h3 {
+  font-size: 40px;
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
